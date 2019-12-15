@@ -3258,11 +3258,17 @@ h3 {
   overflow: hidden;
 }
 
-/* line 47, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_portfolio.scss */
-.portfolio_image_area .single_Portfolio .portfolio_thumb {
-  
+@media (max-width: 991px) {
+  .portfolio_image_area .single_Portfolio .portfolio_thumb {
+    height: 100%;
+  }
 }
 
+@media (min-width: 992px) {
+  .portfolio_image_area .single_Portfolio .portfolio_thumb {
+    height: 480px;
+  }
+}
 /* line 49, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_portfolio.scss */
 .portfolio_image_area .single_Portfolio .portfolio_thumb img {
   width: 100%;
